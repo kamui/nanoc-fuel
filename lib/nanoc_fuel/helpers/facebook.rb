@@ -9,7 +9,7 @@ module NanocFuel::Helpers
      end
 
      def fb_init_haml(app_id)
-       template = File.read(File.expand_path("../templates/fb_init.haml", __FILE__))
+       template = File.read(File.expand_path("../templates/facebook/fb_init.haml", __FILE__))
        Haml::Engine.new(template).render(Object.new, :app_id => app_id)
      end
      
@@ -18,7 +18,7 @@ module NanocFuel::Helpers
      end
      
      def fb_comments_haml(url, num_posts, width)
-       template = File.read(File.expand_path("../templates/fb_comments.haml", __FILE__))
+       template = File.read(File.expand_path("../templates/facebook/fb_comments.haml", __FILE__))
        Haml::Engine.new(template).render(Object.new, :url => url, :num_posts => num_posts, :width => width)
      end
      
