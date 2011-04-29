@@ -29,11 +29,16 @@ For the Facebook helper:
 In your nanoc project's lib/helpers.rb file add:
 
     include NanocFuel::Helpers::Facebook
+    
+    include NanocFuel::Helpers::Google
 
 Then, in your layout add this:
 
     fb_init("FB APP ID HERE")
+    
     fb_comments("url", "num_posts", "width")
+    
+    ga_tracking("UA-XXXXX")
 
 Contact
 ------------
