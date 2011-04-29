@@ -3,7 +3,7 @@
 require 'haml'
 
 module NanocFuel::Helpers
-   module GoogleAnalytics
+   module Google
     def ga_tracking(ua_id)
       ga_tracking_code_haml(ua_id)
     end
