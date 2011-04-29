@@ -26,13 +26,12 @@ Usage
 
 For the Facebook helper:
 
-In your nanoc project's lib/helpers.rb file add:
+In your nanoc project's lib/helpers.rb file, include one of the helpers:
 
-    include NanocFuel::Helpers::Facebook
-    
+    include NanocFuel::Helpers::Facebook  
     include NanocFuel::Helpers::Google
 
-Then, in your layout add this:
+Then, in your layout add any of these:
 
     fb_init("FB APP ID HERE")
     
