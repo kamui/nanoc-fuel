@@ -1,0 +1,2 @@
+module NanocFuel
+end

@@ -1,0 +1,6 @@
+%script{:src => "http://connect.facebook.net/en_US/all.js#appId=#{app_id}", :type => "text/javascript"}
+:javascript
+ FB.init({
+    appId:'#{app_id}', cookie:true,
+    status:true, xfbml:true
+ });
