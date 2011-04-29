@@ -14,7 +14,7 @@ module NanocFuel::Helpers
      end
      
      def fb_comments(url, num_posts, width)
-       haml_fb_comments(url, num_posts, width)
+       fb_comments_haml(url, num_posts, width)
      end
      
      def fb_comments_haml(url, num_posts, width)
