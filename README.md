@@ -33,6 +33,7 @@ In your nanoc project's lib/helpers.rb file add:
 Then, in your layout add this:
 
     fb_init("FB APP ID HERE")
+    fb_comments("url", "num_posts", "width")
 
 Contact
 ------------
