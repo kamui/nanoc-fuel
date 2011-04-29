@@ -4,8 +4,8 @@ require 'haml'
 
 module NanocFuel::Helpers
    module GoogleAnalytics
-    def ga_tracking_code(ua_id)
-      haml_fb_comments(url, num_posts, width)
+    def ga_tracking(ua_id)
+      ga_tracking_code_haml(ua_id)
     end
 
     def ga_tracking_code_haml(ua_id)
