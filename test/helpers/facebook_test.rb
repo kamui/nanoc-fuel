@@ -14,7 +14,7 @@ class NanocFuel::Helpers::FacebookTest < MiniTest::Unit::TestCase
       FB.Canvas.setSize();
     };
 
-    function facebookHook() {}
+    function fbInitHook() {}
 
     function sizeChangeCallback() {
       FB.Canvas.setSize();
