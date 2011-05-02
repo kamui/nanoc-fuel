@@ -1,6 +1,18 @@
-%script{:src => "http://connect.facebook.net/en_US/all.js#appId=#{app_id}", :type => "text/javascript"}
 :javascript
- FB.init({
-    appId:'#{app_id}', cookie:true,
-    status:true, xfbml:true
- });
+  window.fbAsyncInit = function() {
+    FB.init({appId: '#{app_id}', status: true, cookie: true, xfbml: true});
+    fbInitHook();
+    FB.Canvas.setSize();
+  };
+
+  function facebookHook() {}
+
+  function sizeChangeCallback() {
+    FB.Canvas.setSize();
+  }
+
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
