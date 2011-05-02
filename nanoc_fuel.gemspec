@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jack Chu", "Bob Whitney"]
   s.email       = ["jack@jackchu.com", "robertj.whitney@gmail.com"]
-  s.homepage    = ""
-  s.summary     = %q{nanoc 3.1 extension that useful helpers.}
+  s.homepage    = "https://github.com/kamui/nanoc_fuel"
+  s.summary     = %q{nanoc extension that adds useful helpers (facebook, google analytics, etc).}
   s.description = %q{}
 
   s.rubyforge_project = "nanoc_fuel"

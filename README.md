@@ -1,7 +1,7 @@
 Nanoc Fuel
 =============================
 
-Nanoc Deploy is a nanoc 3.1 gem that adds a bunch of useful helpers and extras.
+Nanoc Deploy is a nanoc gem that adds a bunch of useful helpers.
 
 Installation
 ------------
@@ -24,7 +24,7 @@ and then in your nanoc project, put this in lib/default.rb:
 Usage
 ------------
 
-For the Facebook helper:
+For the Facebook/Google helpers:
 
 In your nanoc project's lib/helpers.rb file, include one of the helpers:
 
