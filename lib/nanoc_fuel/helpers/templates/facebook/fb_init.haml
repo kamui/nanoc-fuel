@@ -1,3 +1,5 @@
+#fb-root
+%script{:type=>"text/javascript", :src=>"http://connect.facebook.net/en_US/all.js"}
 :javascript
   window.fbAsyncInit = function() {
     FB.init({appId: '#{app_id}', status: true, cookie: true, xfbml: true});
