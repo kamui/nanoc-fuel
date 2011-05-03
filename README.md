@@ -1,7 +1,7 @@
 Nanoc Fuel
 =============================
 
-Nanoc Deploy is a nanoc gem that adds a bunch of useful helpers.
+Nanoc Fuel is a nanoc gem that adds a bunch of useful helpers.
 
 Installation
 ------------
