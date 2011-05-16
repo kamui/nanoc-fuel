@@ -6,8 +6,7 @@ class NanocFuel::Helpers::FacebookTest < MiniTest::Unit::TestCase
   def test_fb_init
     
     html = %q{
-<div id="fb-root"></div>
-<script type="text/javascript" src="http://connect.facebook.net/en_US/all.js"></script>
+<div id='fb-root'></div>
 <script type='text/javascript'>
   //<![CDATA[
     window.fbAsyncInit = function() {
@@ -42,7 +41,7 @@ class NanocFuel::Helpers::FacebookTest < MiniTest::Unit::TestCase
   
   def test_fb_like_btn
     html = %q{
-      <iframe allowTransparency='true' frameborder='0' scrolling='no' src='http://www.facebook.com/plugins/like.php?href&amp;amp;send=true&amp;amp;layout=standard&amp;amp;width=450&amp;amp;show_faces=true&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;font&amp;amp;height=80' style='border:none; overflow:hidden; width:450px; height:80px;'></iframe>
+      <iframe allowTransparency='true' frameborder='0' scrolling='no' src='//www.facebook.com/plugins/like.php?href&amp;amp;send=true&amp;amp;layout=standard&amp;amp;width=450&amp;amp;show_faces=true&amp;amp;action=like&amp;amp;colorscheme=light&amp;amp;font&amp;amp;height=80' style='border:none; overflow:hidden; width:450px; height:80px;'></iframe>
     }
     assert_equal compact(html), compact(fb_like_btn("standard", "450", "true", "true"))
   end
