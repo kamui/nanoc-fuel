@@ -3,8 +3,8 @@
 # Load requirements
 require 'nanoc3'
 
-# Load nanoc_fuel
-require 'nanoc_fuel/base'
-require 'nanoc_fuel/filters'
-require 'nanoc_fuel/helpers'
-require 'nanoc_fuel/version'
+# Load nanoc-fuel
+require 'nanoc-fuel/base'
+require 'nanoc-fuel/filters'
+require 'nanoc-fuel/helpers'
+require 'nanoc-fuel/version'

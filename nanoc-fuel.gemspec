@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "nanoc_fuel/version"
+require "nanoc-fuel/version"
 
 Gem::Specification.new do |s|
-  s.name        = "nanoc_fuel"
+  s.name        = "nanoc-fuel"
   s.version     = NanocFuel::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jack Chu", "Bob Whitney"]
   s.email       = ["jack@jackchu.com", "robertj.whitney@gmail.com"]
-  s.homepage    = "https://github.com/kamui/nanoc_fuel"
+  s.homepage    = "https://github.com/kamui/nanoc-fuel"
   s.summary     = %q{nanoc extension that adds useful helpers (facebook, google analytics, etc).}
   s.description = %q{}
 
-  s.rubyforge_project = "nanoc_fuel"
+  s.rubyforge_project = "nanoc-fuel"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

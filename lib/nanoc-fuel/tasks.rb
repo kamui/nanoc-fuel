@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-require 'nanoc_fuel'
+require 'nanoc-fuel'
 require 'rake'
 
 module NanocFuel::Tasks

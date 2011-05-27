@@ -1,4 +1,4 @@
-require 'nanoc_fuel'
+require 'nanoc-fuel'
 require 'minitest/autorun'
 require 'nanoc3'
 

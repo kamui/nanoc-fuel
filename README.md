@@ -11,15 +11,15 @@ Installation
 
 If you're using bundler, just add this to your Gemfile:
 
-    gem 'nanoc_fuel'
+    gem 'nanoc-fuel'
 
 Otherwise, you can just install the gem manually:
 
-    gem install nanoc_fuel
+    gem install nanoc-fuel
 
 and then in your nanoc project, put this in lib/default.rb:
 
-    require 'nanoc_fuel/tasks'
+    require 'nanoc-fuel/tasks'
 
 Usage
 ------------

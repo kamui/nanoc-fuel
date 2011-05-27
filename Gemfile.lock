@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nanoc_fuel (0.0.1)
+    nanoc-fuel (0.0.5)
       haml (>= 3.1.1)
       nanoc (>= 3.1.6)
 
@@ -10,13 +10,13 @@ GEM
   specs:
     cri (1.0.1)
     haml (3.1.1)
-    nanoc (3.1.6)
-      nanoc3 (>= 3.1.6)
-    nanoc3 (3.1.6)
+    nanoc (3.1.7)
+      nanoc3 (>= 3.1.7)
+    nanoc3 (3.1.7)
       cri (>= 1.0.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  nanoc_fuel!
+  nanoc-fuel!
