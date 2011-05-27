@@ -23,5 +23,10 @@ module NanocFuel::Helpers
        template = File.read(File.expand_path("../templates/facebook/fb_meta_admin.haml", __FILE__))
        Haml::Engine.new(template).render(Object.new, :meta_admin => meta_admin)
      end
+
+     def fb_meta_app_id(meta_app_id)
+       template = File.read(File.expand_path("../templates/facebook/fb_meta_app_id.haml", __FILE__))
+       Haml::Engine.new(template).render(Object.new, :meta_app_id => meta_app_id)
+     end
    end
 end

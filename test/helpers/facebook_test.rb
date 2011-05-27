@@ -51,4 +51,11 @@ class NanocFuel::Helpers::FacebookTest < MiniTest::Unit::TestCase
     }
     assert_equal compact(html), compact(fb_meta_admin("210427235657242"))
   end
+
+  def test_fb_meta_app_id
+    html = %q{
+      <meta content='210427235657242' property='fb:app_id' />
+    }
+    assert_equal compact(html), compact(fb_meta_app_id("210427235657242"))
+  end
 end
