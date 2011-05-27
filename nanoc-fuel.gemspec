@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.name        = "nanoc-fuel"
   s.version     = NanocFuel::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["Jack Chu", "Bob Whitney"]
-  s.email       = ["jack@jackchu.com", "robertj.whitney@gmail.com"]
+  s.authors     = ["Jack Chu", "Bob Whitney", "Winter Lee"]
+  s.email       = ["jack@jackchu.com", "robertj.whitney@gmail.com", "wintafay@gmail.com"]
   s.homepage    = "https://github.com/kamui/nanoc-fuel"
   s.summary     = %q{nanoc extension that adds useful helpers (facebook, google analytics, etc).}
   s.description = %q{}
