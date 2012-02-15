@@ -1,6 +1,6 @@
 require 'nanoc-fuel'
 require 'minitest/autorun'
-require 'nanoc3'
+require 'nanoc'
 
 def compact(string)
   compact_string = ''

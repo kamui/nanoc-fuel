@@ -1,7 +1,7 @@
 # encoding: utf-8
 
 # Load requirements
-require 'nanoc3'
+require 'nanoc'
 
 # Load nanoc-fuel
 require 'nanoc-fuel/base'
