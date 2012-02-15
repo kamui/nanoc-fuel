@@ -21,4 +21,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency('nanoc', '~> 3.1')
   s.add_runtime_dependency('haml', '~> 3.1')
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'minitest'
 end
